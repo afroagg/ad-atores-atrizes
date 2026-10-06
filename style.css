@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #efe9f7;
+  color: #222222;
+  padding: 24px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  color: #6a3fa0;
+  margin: 0 0 8px 0;
+}
+
+.subtitulo {
+  color: #555555;
+  margin: 0 0 20px 0;
+}
+
+#busca {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #999999;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+#busca:focus {
+  outline: none;
+  border-color: #6a3fa0;
+}
+
+.contador {
+  text-align: center;
+  color: #555555;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #c9b8e0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+  background-color: #d9cdea;
+}
+
+.card .info {
+  padding: 10px 12px;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin: 0 0 6px 0;
+}
+
+.card p {
+  font-size: 13px;
+  color: #555555;
+  margin: 2px 0;
+}
+
+.vazio {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #555555;
+}

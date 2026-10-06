@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atores e Atrizes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Atores e Atrizes</h1>
+    <p class="subtitulo">Busque pelo nome e veja país e data de nascimento.</p>
+    <input type="text" id="busca" placeholder="Buscar ator ou atriz pelo nome..." oninput="filtrar()">
+  </header>
+
+  <p id="contador" class="contador"></p>
+  <div id="grid" class="grid"></div>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
